@@ -22,7 +22,12 @@ export default defineConfig({
   title: 'JavaScript Documentation',
   description: 'JavaScript Documentation Collection',
 
+  head: [
+    ['link', { rel: 'icon', href: '/assets/favicon.ico' }]
+  ],
+
   themeConfig: {
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
