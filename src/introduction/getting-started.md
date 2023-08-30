@@ -1,6 +1,6 @@
 # Getting Started
 
-You might need prepare some tools if you want to develop your project with Golang.
+You might need prepare some tools if you want to develop your project with JavaScript.
 
 ## Installation
 
