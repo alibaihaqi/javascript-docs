@@ -1,0 +1,25 @@
+{
+  "name": "javascript-docs",
+  "version": "1.0.0",
+  "description": "JavaScript or TypeScript Documentation (Frontend and Backend)",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibaihaqi/javascript-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alibaihaqi/javascript-docs/issues"
+  },
+  "homepage": "https://github.com/alibaihaqi/javascript-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.10"
+  }
+}
