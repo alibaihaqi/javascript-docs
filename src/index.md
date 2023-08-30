@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "JavaScript Documentation"
-  tagline: My great project tagline
+  tagline: Develop your JavaScript project
   actions:
     - theme: brand
       text: Introduction
