@@ -13,11 +13,13 @@ hero:
       text: Getting Started
       link: /introduction/getting-started
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: Basic Knowledge
+    details: Understand the basic
+    link: /basic/
+  - title: Nest JS
+    details: Build your backend using Nest JS
+    link: /nestjs/
 #   - title: Feature C
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

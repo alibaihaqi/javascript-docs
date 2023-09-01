@@ -51,6 +51,20 @@ export default defineConfig({
           { text: 'Getting Started', link: '/introduction/getting-started' }
         ]
       },
+      {
+        text: 'Basic Knowledge',
+        collapsed: true,
+        items: [
+          { text: 'General Info', link: '/basic/' },
+          { text: 'Variables', link: '/basic/variables' }
+        ]
+      },
+      {
+        text: 'NestJS',
+        items: [
+          { text: 'General Info', link: '/nestjs/' },
+        ]
+      },
     ],
 
     socialLinks: [
