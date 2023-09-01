@@ -23,7 +23,7 @@ export default defineConfig({
   description: 'JavaScript Documentation Collection',
 
   head: [
-    ['link', { rel: 'icon', href: '/assets/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/javascript-docs/assets/favicon.ico' }]
   ],
 
   themeConfig: {
