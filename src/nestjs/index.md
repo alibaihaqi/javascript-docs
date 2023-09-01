@@ -5,7 +5,7 @@ Nest (NestJS) is a framework for building efficient, scalable [Node.js](https://
 
 ## Prerequisite
 
-- Minimum [NodeJS]((https://nodejs.org/en/download/package-manager)) (version: >= 16)
+- Minimum [NodeJS](https://nodejs.org/en/download/package-manager) with version >= 16
 
 ## Installation
 
