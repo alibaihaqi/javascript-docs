@@ -63,6 +63,7 @@ export default defineConfig({
         text: 'NestJS',
         items: [
           { text: 'General Info', link: '/nestjs/' },
+          { text: 'Basic Implementation', link: '/nestjs/basic-implementation' },
         ]
       },
     ],
