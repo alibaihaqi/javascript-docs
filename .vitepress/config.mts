@@ -64,6 +64,7 @@ export default defineConfig({
         items: [
           { text: 'General Info', link: '/nestjs/' },
           { text: 'Basic Implementation', link: '/nestjs/basic-implementation' },
+          { text: 'Module, Controller, Service, and Middleware', link: '/nestjs/module-controller-service-middleware' },
         ]
       },
     ],
