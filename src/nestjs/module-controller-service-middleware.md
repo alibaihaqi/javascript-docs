@@ -102,3 +102,47 @@ Example, Nest JS API for Authentication
 ::: details
 ![Middleware](/assets/nestjs/middleware.png)
 :::
+
+::: code-group
+```ts [Express]
+import { Injectable, NestMiddleware } from '@nestjs/common';
+import { ulid } from 'ulidx';
+import { Request, Response, NextFunction } from 'express';
+
+@Injectable()
+export class LoggerMiddleware implements NestMiddleware {
+  use(req: Request, res: Response, next: NextFunction) {
+    const traceId = ulid();
+    if (!req.headers?.traceId) {
+      req.headers.traceId = traceId;
+      res.setHeader('traceId', traceId);
+    }
+    next();
+  }
+}
+```
+
+```ts [Fastify]
+import { Injectable, NestMiddleware } from '@nestjs/common';
+import { ulid } from 'ulidx';
+import { FastifyRequest, FastifyReply } from 'fastify';
+
+@Injectable()
+export class LoggerMiddleware implements NestMiddleware {
+  use(req: FastifyRequest['raw'], res: FastifyReply['raw'], next: () => void) {
+    const traceId = ulid();
+    if (!req.headers?.traceId) {
+      req.headers.traceId = traceId;
+      res.setHeader('traceId', traceId);
+    }
+    next();
+  }
+}
+```
+:::
+
+For fastify, you can enable the log by passing `logger` to `true` in `FastifyAdapter`.
+
+```ts [main.ts]
+new FastifyAdapter({ logger: true })
+```
