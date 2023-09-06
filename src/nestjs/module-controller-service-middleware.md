@@ -31,7 +31,6 @@ import { CommonService } from './common.service';
   providers: [CommonService],
 })
 export class CommonModule {}
-
 ```
 
 ```ts [app.module.ts]
@@ -44,6 +43,8 @@ import { CommonModule } from './common/common.module';
 export class AppModule {}
 ```
 :::
+
+![NestJS Module](/assets/nestjs/module.png)
 
 ## Controller
 
@@ -68,10 +69,36 @@ export class CommonController {
 }
 ```
 
-## Service
+## Service / Providers
 
-TBD
+The service or provider handles the complex task after the task is delegated by the controller.
+
+```ts [common.service.ts]
+import { Injectable } from '@nestjs/common';
+
+export interface ICommonResponse {
+  success: boolean;
+  message: string;
+}
+
+@Injectable()
+export class CommonService {
+  getCommonResponse(): ICommonResponse {
+    return {
+      success: true,
+      message: 'Nest JS is running!',
+    };
+  }
+}
+```
 
 ## Middleware
 
-TBD
+Middleware is a function that called **before** the route handler. The middleware can be used to intercept flow that need another handler before it get execute by the route handler like protected routes that you might need to extract the data from JSON Web Token (JWT).
+
+Nest middleware are, by default, equivalent to express middleware. - [Source](https://docs.nestjs.com/middleware)
+
+Example, Nest JS API for Authentication
+::: details
+![Middleware](/assets/nestjs/middleware.png)
+:::

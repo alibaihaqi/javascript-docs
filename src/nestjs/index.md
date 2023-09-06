@@ -22,4 +22,4 @@ To create a new project with TypeScript's stricter feature set, pass the `--stri
 
 After the installation, you'll see the result like this.
 
-![nestjs-project](/assets/nestjs/nestjs-project.png)
+![nestjs-project](/assets/nestjs/project.png)
