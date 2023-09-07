@@ -60,11 +60,20 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Data Structure',
+        collapsed: true,
+        items: [
+          { text: 'General Info', link: '/data-structure/' },
+          { text: 'Big O Notation', link: '/data-structure/big-o-notation' },
+        ]
+      },
+      {
         text: 'NestJS',
         items: [
           { text: 'General Info', link: '/nestjs/' },
           { text: 'Basic Implementation', link: '/nestjs/basic-implementation' },
-          { text: 'Module, Controller, Service, and Middleware', link: '/nestjs/module-controller-service-middleware' },
+          { text: 'Module, Controller, and Service', link: '/nestjs/module-controller-service' },
+          { text: 'Middleware, Guard, Pipes, and Interceptor', link: '/nestjs/middleware-guard-pipes-interceptor' },
         ]
       },
     ],
