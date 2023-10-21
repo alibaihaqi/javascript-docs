@@ -75,6 +75,12 @@ export default defineConfig({
           { text: 'Middleware, Guard, Pipes, and Interceptor', link: '/nestjs/middleware-guard-pipes-interceptor' },
         ]
       },
+      {
+        text: 'Bun',
+        items: [
+          { text: 'Getting Started', link: '/bun/' }
+        ]
+      },
     ],
 
     socialLinks: [
