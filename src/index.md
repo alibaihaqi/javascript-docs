@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "JavaScript Documentation"
+  name: 'JavaScript Documentation'
   tagline: Develop your JavaScript project
   actions:
     - theme: brand
@@ -20,8 +20,10 @@ features:
   - title: Nest JS
     details: Build your backend using Nest JS
     link: /nestjs/
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Bun
+    details: Build your backend using Bun
+    link: /bun/
+
 ---
 
 <style>
