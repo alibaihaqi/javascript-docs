@@ -20,3 +20,31 @@ $ hyperfine --prepare 'rm -rf node_modules' --warmup 1 --runs 3 'bun install' 'p
 
 The generated result from my local laptop.
 ![Bun Install Benchmark](/assets/bun/bun-install-benchmark.png)
+
+## Run `bun add`
+
+Most implementation similar to other package managers.
+
+- For install as dependencies:
+::: code-group
+```bash [latest version]
+$ bun add <package_name>
+```
+
+```bash [specific version]
+$ bun add <package_name>@x.y.z
+```
+:::
+
+- For install as devDependencies:
+::: code-group
+```bash [latest version]
+# you could use `--development`, `-d`, or `-D` as well
+$ bun add -D <package_name>
+```
+
+```bash [specific version]
+# you could use `--development`, `-d`, or `-D` as well
+$ bun add -D <package_name>@x.y.z
+```
+:::
