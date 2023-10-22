@@ -46,11 +46,12 @@ Some available template options:
 - elysia
 - react-app
 - preact
+- remix
 - vite (recommended)
 
 You could see other options through the link above.
 
-For example, I want to create `next` application to `bun-next` as destination, then you could run the command:
+For example, I want to create `preact` application to `bun-preact` as destination, then you could run the command:
 ```bash
-$ bun create next bun-next
+$ bun create preact bun-preact
 ```
