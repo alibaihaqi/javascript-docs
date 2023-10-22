@@ -79,7 +79,8 @@ export default defineConfig({
         text: 'Bun',
         items: [
           { text: 'Getting Started', link: '/bun/' },
-          { text: 'Create Application', link: '/bun/create-application' }
+          { text: 'Create Application', link: '/bun/create-application' },
+          { text: 'Bun as a Package Manager', link: '/bun/package-manager' }
         ]
       },
     ],
