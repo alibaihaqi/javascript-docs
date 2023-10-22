@@ -48,3 +48,9 @@ $ bun add -D <package_name>
 $ bun add -D <package_name>@x.y.z
 ```
 :::
+
+## Run `bun remove`
+To remove dependency, run this command:
+```bash
+$ bun remove <package_name>
+```
