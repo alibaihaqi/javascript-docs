@@ -35,4 +35,22 @@ You will get response `console.log` `Hello via Bun!` by default.
 
 ## Build with `bun create`
 
-TBD
+You could use `bun create` when you want use existing template or you want refer to template from repository.
+
+Based on documentation, you could run this command:
+```bash
+$ bun create <template_option> <destination>
+```
+
+Some available template options:
+- elysia
+- react-app
+- preact
+- vite (recommended)
+
+You could see other options through the link above.
+
+For example, I want to create `next` application to `bun-next` as destination, then you could run the command:
+```bash
+$ bun create next bun-next
+```
