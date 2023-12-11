@@ -55,3 +55,4 @@ For example, I want to create `preact` application to `bun-preact` as destinatio
 ```bash
 $ bun create preact bun-preact
 ```
+ 
