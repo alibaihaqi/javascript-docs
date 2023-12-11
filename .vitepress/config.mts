@@ -73,6 +73,7 @@ export default defineConfig({
           { text: 'Basic Implementation', link: '/nestjs/basic-implementation' },
           { text: 'Module, Controller, and Service', link: '/nestjs/module-controller-service' },
           { text: 'Middleware, Guard, Pipes, and Interceptor', link: '/nestjs/middleware-guard-pipes-interceptor' },
+          { text: 'Http Module', link: '/nestjs/http' },
         ]
       },
       {
