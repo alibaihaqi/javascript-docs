@@ -7,4 +7,19 @@ You might ever use Axios on JavaScript project development. Based on documentati
 You can install the application based on your package manager:
 
 ::: code-group
+```bash [npm]
+$ npm install @nestjs/axios axios
+```
+
+```bash [yarn]
+$ bun add @nestjs/axios axios
+```
+
+```bash [pnpm]
+$ pnpm add @nestjs/axios axios
+```
+
+```bash [bun]
+$ bun add @nestjs/axios axios
+```
 :::
