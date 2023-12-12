@@ -23,3 +23,19 @@ $ pnpm add @nestjs/axios axios
 $ bun add @nestjs/axios axios
 ```
 :::
+
+## Getting Started
+
+You need to add `HttpModule` on your related module.
+
+```ts
+import { HttpModule } from '@nestjs/axios'
+
+@Module({
+  imports: [
+    HttpModule, // Add http module on imports like the rest of modules
+  ],
+})
+
+//
+```
