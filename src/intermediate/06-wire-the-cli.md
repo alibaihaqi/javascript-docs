@@ -87,8 +87,8 @@ node cli.js done 1
 # Done: 1
 
 node cli.js list --pending
-# 2. [ ] quis ut nam facilis et possimus et asperiores
-# 3. [ ] fugiat veniam minus
+# 1. [ ] quis ut nam facilis et possimus et asperiores
+# 2. [ ] fugiat veniam minus
 
 node cli.js remove 2
 # Removed: 2
