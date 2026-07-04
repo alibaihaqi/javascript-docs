@@ -7,8 +7,9 @@
 > added over time so you have context before reading the code.
 
 ## Content model
-- Content lives in `src/`. Tiers/sections: `introduction`, `beginner`, plus
-  topic sections (`basic`, `bun`, `data-structure`, `nestjs`).
+- Content lives in `src/`. Tiers/sections: `introduction`, `beginner`,
+  `intermediate`, plus topic sections (`basic`, `bun`, `data-structure`,
+  `nestjs`).
 - A tier is a numbered ladder building ONE concrete artifact.
 - Tier `index.md` frontmatter: `title`, `tier`, `platform: javascript`.
 
