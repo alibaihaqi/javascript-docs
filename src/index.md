@@ -14,6 +14,9 @@ hero:
       link: /introduction/getting-started
 
 features:
+  - title: Beginner
+    details: Build a Node CLI todo app — no frameworks, no third-party packages
+    link: /beginner/
   - title: Basic Knowledge
     details: Understand the basic
     link: /basic/
