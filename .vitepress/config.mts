@@ -33,6 +33,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Beginner', link: '/beginner/' },
+      { text: 'Intermediate', link: '/intermediate/' },
     ],
 
     search: {
@@ -44,6 +45,20 @@ export default defineConfig({
     },
 
     sidebar: [
+      {
+        text: 'Intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why grow it', link: '/intermediate/01-why-grow-it' },
+          { text: '02 The done command', link: '/intermediate/02-done-command' },
+          { text: '03 The remove command', link: '/intermediate/03-remove-command' },
+          { text: '04 Filtering', link: '/intermediate/04-filtering' },
+          { text: '05 Async seed with fetch', link: '/intermediate/05-async-seed' },
+          { text: '06 Wire the CLI', link: '/intermediate/06-wire-the-cli' },
+          { text: '07 Tests', link: '/intermediate/07-tests' },
+        ],
+      },
       {
         text: 'Beginner',
         collapsed: false,

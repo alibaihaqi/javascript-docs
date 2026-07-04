@@ -17,6 +17,9 @@ features:
   - title: Beginner
     details: Build a Node CLI todo app — no frameworks, no third-party packages
     link: /beginner/
+  - title: Intermediate
+    details: Grow the CLI todo — done/remove commands, filtering, and async fetch seeding
+    link: /intermediate/
   - title: Basic Knowledge
     details: Understand the basic
     link: /basic/
