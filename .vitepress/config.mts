@@ -34,6 +34,7 @@ export default defineConfig({
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Beginner', link: '/beginner/' },
       { text: 'Intermediate', link: '/intermediate/' },
+      { text: 'Advanced', link: '/advanced/' },
     ],
 
     search: {
@@ -46,17 +47,27 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Intermediate',
+        text: 'Introduction',
+        items: [
+          { text: 'Introduction', link: '/introduction/' },
+          { text: 'Getting Started', link: '/introduction/getting-started' }
+        ]
+      },
+      {
+        text: 'Advanced',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/intermediate/' },
-          { text: '01 Why grow it', link: '/intermediate/01-why-grow-it' },
-          { text: '02 The done command', link: '/intermediate/02-done-command' },
-          { text: '03 The remove command', link: '/intermediate/03-remove-command' },
-          { text: '04 Filtering', link: '/intermediate/04-filtering' },
-          { text: '05 Async seed with fetch', link: '/intermediate/05-async-seed' },
-          { text: '06 Wire the CLI', link: '/intermediate/06-wire-the-cli' },
-          { text: '07 Tests', link: '/intermediate/07-tests' },
+          { text: 'Overview', link: '/advanced/' },
+          { text: '01 Why Express', link: '/advanced/01-why-express' },
+          { text: '02 Express server', link: '/advanced/02-express-server' },
+          { text: '03 PostgreSQL with pg', link: '/advanced/03-postgresql-with-pg' },
+          { text: '04 REST API', link: '/advanced/04-rest-api' },
+          { text: '05 JWT auth', link: '/advanced/05-jwt-auth' },
+          { text: '06 Middleware', link: '/advanced/06-middleware' },
+          { text: '07 Docker deploy', link: '/advanced/07-docker-deploy' },
+          { text: '08 Integration tests', link: '/advanced/08-integration-tests' },
+          { text: '09 GitHub Actions', link: '/advanced/09-github-actions' },
+          { text: '10 Production practices', link: '/advanced/10-production-practices' },
         ],
       },
       {
@@ -74,11 +85,18 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Introduction',
+        text: 'Intermediate',
+        collapsed: false,
         items: [
-          { text: 'Introduction', link: '/introduction/' },
-          { text: 'Getting Started', link: '/introduction/getting-started' }
-        ]
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why grow it', link: '/intermediate/01-why-grow-it' },
+          { text: '02 The done command', link: '/intermediate/02-done-command' },
+          { text: '03 The remove command', link: '/intermediate/03-remove-command' },
+          { text: '04 Filtering', link: '/intermediate/04-filtering' },
+          { text: '05 Async seed with fetch', link: '/intermediate/05-async-seed' },
+          { text: '06 Wire the CLI', link: '/intermediate/06-wire-the-cli' },
+          { text: '07 Tests', link: '/intermediate/07-tests' },
+        ],
       },
       {
         text: 'Basic Knowledge',

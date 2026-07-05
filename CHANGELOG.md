@@ -3,6 +3,11 @@
 All notable changes to the JavaScript learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): evolves the CLI todo into a web API — Express server with PostgreSQL (`pg`), REST CRUD, JWT auth with bcrypt, middleware (logging, error, auth), Docker + docker-compose, Jest integration tests, GitHub Actions CI/CD, and production practices (env vars, graceful shutdown, rate limiting, health checks). Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier
 
 ### Added

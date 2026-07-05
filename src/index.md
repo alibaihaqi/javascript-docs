@@ -20,6 +20,9 @@ features:
   - title: Intermediate
     details: Grow the CLI todo — done/remove commands, filtering, and async fetch seeding
     link: /intermediate/
+  - title: Advanced
+    details: Express API with PostgreSQL, JWT auth, Docker, and CI/CD pipeline
+    link: /advanced/
   - title: Basic Knowledge
     details: Understand the basic
     link: /basic/
